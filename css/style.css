@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #1f2937;
+    color: white;
+    height: 400px;
+}
+
+nav {
+    display: flex;
+    padding: 20px 0px 20px 100px;
+    
+    align-items: center;
+}
+
+header > article > h2 {
+    font-size: 48px;
+}
+
+.links {
+    display: flex;
+    width: 500px;
+    margin-left: auto;
+    padding: 0px 150px 0px 0px;
+    font-size: 18px;
+    color: #e5e7eb;
+    justify-content: space-between;
+}
+
+.header-logo { 
+    margin-right: 0.5rem;
+    font-weight: 700;
+    font-size: 24px;
+    padding-left: 15px;
+}
+
+.header-content {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+}
+
+.text-content {
+    width: 400px;
+}
+
+.text-content > p {
+    font-size: 15px;
+}
+
+.image {
+    background: hsl(0, 0%, 50%, 0.5);
+    margin-right: 70px;
+    padding: 6.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-header {
+    background: #3882f6;
+    color: white;
+    padding: 7px 18px;
+    border: 0px;
+    border-radius: 9px;
+}
+
+.random-info {
+    text-align: center;
+    height: 400px;
+}
+
+.blocks {
+    display: flex;
+    padding: 0px 400px;
+    margin: auto;
+    height: 300px;
+    width: 200px;
+    justify-content: space-around;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+.block {
+    padding: 70px;
+    margin: 30px;
+    border-radius: 10px;
+    border: 2px solid #3882f6;
+}
+
+.quote {
+    height: 200px;
+    background: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    text-align: left;
+    padding: 100px 300px;
+}
+
+.quote > p {
+    text-align: right;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.action {
+    display: flex;
+    background: #3882f6;
+    color: white;
+    justify-content: space-around;
+    margin: 100px;
+    padding: 50px;
+}
+
+.action > .p {
+    color: #e5e7eb;
+}
+
+.btn-action {
+    background: #3882f6;
+    color: white;
+    margin-bottom: 25px;
+    height: 40px;
+    padding: 7px 32px;
+    border: 2px white solid;
+    border-radius: 9px;
+    align-self: self-end;
+}
+
+footer {
+    text-align: center;
+    background: #1f2937;
+    color: white;
+    padding: 2rem;
+}
